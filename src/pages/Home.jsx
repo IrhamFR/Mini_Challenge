@@ -21,10 +21,9 @@ function Home() {
             <div>
                 {data?.map((item) => {
                     return (
-                    <div style={{backgroundColor: "white"}}>
+                    <div>
                         <Card image={item.image} username={item.username} followers={item.follower} id={item.id} />
                     </div>
-                    
                     )
                 })}
             </div>

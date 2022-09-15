@@ -24,18 +24,18 @@ function HomeDetail() {
     return (
         <div style={{backgroundColor: "whitesmoke", margin: "0 350px"}}>
             <div style={{backgroundColor: "grey", height: "100%", width: "100%", display: "flex", flexDirection: "column"}}>
-                <div style={{display: "flex", justifyContent: "center", alignItems: "center"}}>
+                <div style={{display: "flex", justifyContent: "center"}}>
                     <img src={data?.image} style={{ objectFit: "cover", height: "200px", width: "200px", borderRadius: "50%", border: "10px solid magenta"}} />
                 </div>
-                <div style={{display: "flex", justifyContent: "center", alignItems: "center"}}>
+                <div style={{display: "flex", justifyContent: "center"}}>
                     <h2 style={{color: "white" }}>@{data?.username}</h2>
                 </div>
                 <div style={{display: "flex", justifyContent: "center"}}>
-                    <div style={{display: "flex", alignItems: "center", justifyContent: "center", flexDirection: "column", marginRight: "70px"}}>
+                    <div style={{display: "flex", alignItems: "center", flexDirection: "column", marginRight: "70px"}}>
                         <h4>{data?.follower}</h4>
                         <h4>Followers</h4>
                     </div>
-                    <div style={{display: "flex", alignItems: "center", justifyContent: "center", flexDirection: "column"}}>
+                    <div style={{display: "flex", alignItems: "center", flexDirection: "column"}}>
                         <h4>{data?.following}</h4>
                         <h4>Following</h4>
                     </div>
