@@ -13,7 +13,6 @@ function HomeDetail() {
         const show = fakeData.filter((item) => {
             return item.id == params.id
         })
-        console.log(show)
         setData(show[0])
     }
 
